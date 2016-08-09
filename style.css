@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, Arial, "STHeiti", "LiHei Pro Medium", "Microsoft JhengHei", "Microsoft Yahei", "Hiragino Kaku Gothic Pro",  "Meiryo", "MS PGothic", sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body.curtain {
+  background: rgba(0, 0, 0, 0.8);
+  color: #eee;
+}
+
+h1 {
+  margin-bottom: 100px;
+}
+
+h2.count {
+  position: relative;
+  top: 180px;
+}
+
+input[type="number"] {
+  width: 60px;
+  text-align: center;
+}
+
+#bar {
+  width: 300px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 50px auto;
+}
+a.close {
+  color: #fff;
+}

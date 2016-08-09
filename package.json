@@ -1,28 +1,28 @@
 {
-  "name": "electron-quick-start",
+  "name": "sandglass",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Time to have a rest",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git@github.com:zousandian/sandglass.git"
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "keywords": ["Electron", "rest", "break", "healthy"],
+  "author": "zousandian",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/zousandian/sandglass/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/zousandian/sandglass",
   "devDependencies": {
     "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "electron-config": "^0.2.1",
+    "progressbar.js": "^1.0.1",
+    "rx": "^4.1.0",
+    "vue": "^1.0.26"
   }
 }

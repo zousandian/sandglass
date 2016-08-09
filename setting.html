@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Setting</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="setting">
+    <p>
+      Every
+      <select name="interval" id="interval" v-model="interval">
+        <option value="" v-for="v in 6" v-bind:value="v * 10 + 10">{{ v * 10 + 10 }}</option>
+      </select> 
+      minutes break for
+      <select name="gap" id="gap" v-model="gap">
+        <option value="" v-for="v in 10" v-bind:value="v * 30 + 30">{{ v * 30 + 30 }}</option>
+      </select>
+      seconds
+    </p>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <footer>
+      <button id="save" @click="saveSetting">Save</button>
+    </footer>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
